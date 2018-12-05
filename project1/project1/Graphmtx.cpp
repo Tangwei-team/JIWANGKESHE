@@ -22,6 +22,7 @@ void  Graphmtx::chushihua() //初始化
 void Graphmtx::CreatGraph(Router V[], int n, RowColWeight E[], int e)//
 //在图G中插入n个顶点V和e条边int
 {
+	cout << "ly" << endl;
 	//在图G中插入n个顶点
 	for (int i = 0; i < n; i++)
 		insertVertex(V[i]);
